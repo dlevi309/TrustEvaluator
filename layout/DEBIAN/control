@@ -1,7 +1,7 @@
 Package: daniel.trustevaluator
 Name: TrustEvaluator
 Author: daniel
-Description: Allow installing unsigned profiles
+Description: Allow installing unsigned profiles with the ability to write global defaults.
 Depends: mobilesubstrate
 Maintainer: daniel
 Architecture: iphoneos-arm
