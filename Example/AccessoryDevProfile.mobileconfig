@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>The really cool thing about mobile profiles is that once they've been verified and installed by the system, they strictly follow the criteria set, meaning if you strip the profile of it's automatic removal date, these settings can be applied indefinitely. You may also be wondering about a profiles expiration date, and the short answer is that it simply does not matter; the reason that Apple signed profiles contain an automatic removal action (either by time interval after the initial install or a specific date) is because without it, profiles will stay installed regardless of it being signed. Beyond popular belief, the certificate within the profile is only responsible for the initial installation, nothing else. The most obvious application for this in my opinion is the potential to write defaults while Jailbroken, and carrying them out through different iOS versions, Jailbroken or not.</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<array>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>AccessoryDeveloperEnabled</key>
+						<true/>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>.GlobalPreferences</string>
+				</dict>
+			</array>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.defaults.managed.7D7386F6-EE10-4CBE-AAA0-54E495C2D2BA</string>
+			<key>PayloadType</key>
+			<string>com.apple.defaults.managed</string>
+			<key>PayloadUUID</key>
+			<string>7D7386F6-EE10-4CBE-AAA0-54E495C2D2BA</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>This profile is a prime example of applying global defaults through an unsigned profile with TrustEvaluator, in the next scene, I offer more of an explanation as to how this is important when it comes to potential appliances. Once installed, check out the new 'Accessory Developer' section in settings. You may need to respring or reboot to get it to show.</string>
+	<key>PayloadDisplayName</key>
+	<string>Accessory Developer Profile</string>
+	<key>PayloadIdentifier</key>
+	<string>daniel.trusteval.accessorydeveloper</string>
+	<key>PayloadOrganization</key>
+	<string>Daniel</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>C428B566-C47D-4236-A6F7-A75D9E8EF3F6</string>
+	<key>PayloadVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
