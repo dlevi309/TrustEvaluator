@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>en</key>
+		<string>This profile uncovers the “PRIVATE” field when logging</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Enable-Private-Data</string>
+			<key>PayloadIdentifier</key>
+			<string>daniel.apple.enable-private-data</string>
+			<key>PayloadType</key>
+			<string>com.apple.system.logging</string>
+			<key>PayloadUUID</key>
+			<string>732FED45-D524-4BA7-BCD8-BFA03FF273D5</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>System</key>
+			<dict>
+				<key>Enable-Private-Data</key>
+				<true/>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Enables the “Enable-Private-Data” option indefinitely</string>
+	<key>PayloadDisplayName</key>
+	<string>Enable-Private-Data</string>
+	<key>PayloadIdentifier</key>
+	<string>LoggingProfile</string>
+	<key>PayloadOrganization</key>
+	<string>Daniel</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>69E8241D-3DF3-4949-AC5F-8732EE647B24</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
