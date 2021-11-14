@@ -2,11 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>ConsentText</key>
-	<dict>
-		<key>default</key>
-		<string>The really cool thing about mobile profiles is that once they've been verified and installed by the system, they strictly follow the criteria set, meaning if you strip the profile of it's automatic removal date, these settings can be applied indefinitely. You may also be wondering about a profiles expiration date, and the short answer is that it simply does not matter; the reason that Apple signed profiles contain an automatic removal action (either by time interval after the initial install or a specific date) is because without it, profiles will stay installed regardless of it being signed. Beyond popular belief, the certificate within the profile is only responsible for the initial installation, nothing else. The most obvious application for this in my opinion is the potential to write defaults while Jailbroken, and carrying them out through different iOS versions, Jailbroken or not.</string>
-	</dict>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
@@ -15,8 +10,7 @@
 				<dict>
 					<key>DefaultsData</key>
 					<dict>
-						<key>AccessoryDeveloperEnabled</key>
-						<true/>
+
 					</dict>
 					<key>DefaultsDomainName</key>
 					<string>.GlobalPreferences</string>
@@ -37,7 +31,7 @@
 	<key>PayloadDisplayName</key>
 	<string>Accessory Developer Profile</string>
 	<key>PayloadIdentifier</key>
-	<string>daniel.trusteval.accessorydeveloper</string>
+	<string>32rgsdghftdgdrj.sefgdfhjsfgrdj.sedfgdrt5yghfcbr</string>
 	<key>PayloadOrganization</key>
 	<string>Daniel</string>
 	<key>PayloadType</key>
