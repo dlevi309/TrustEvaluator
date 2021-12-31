@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>Installing this tvOS beta Profile will block updates without the feedback app being visible on the homescreen, there is also no uninstall date set, so you can keep this forever up until you uninstall it.</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<array>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>SeedGroup</key>
+						<string>PublicBeta</string>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>.GlobalPreferences</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>SeedProgram</key>
+						<string>AppleSeed</string>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.seeding</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>MobileAssetAssetAudience</key>
+						<string>3565d2d0-06b5-450d-9c01-7086cdd13f97</string>
+						<key>MobileAssetSUAllowOSVersionChange</key>
+						<false/>
+						<key>MobileAssetSUAllowSameVersionFullReplacement</key>
+						<false/>
+						<key>MobileAssetServerURL-com.apple.MobileAsset.MobileSoftwareUpdate.UpdateBrain</key>
+						<string>https://mesu.apple.com/assets/tvOS15DeveloperSeed</string>
+						<key>MobileAssetServerURL-com.apple.MobileAsset.RecoveryOSUpdate</key>
+						<string>https://mesu.apple.com/assets/tvOS15DeveloperSeed</string>
+						<key>MobileAssetServerURL-com.apple.MobileAsset.RecoveryOSUpdateBrain</key>
+						<string>https://mesu.apple.com/assets/tvOS15DeveloperSeed</string>
+						<key>MobileAssetServerURL-com.apple.MobileAsset.SoftwareUpdate</key>
+						<string>https://mesu.apple.com/assets/tvOS15DeveloperSeed</string>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.MobileAsset</string>
+				</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Configures tvOS Software Update for tvOS beta</string>
+			<key>PayloadDisplayName</key>
+			<string>tvOS Beta Software Profile</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.tvos.developersoftware</string>
+			<key>PayloadOrganization</key>
+			<string>Apple Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.defaults.managed</string>
+			<key>PayloadUUID</key>
+			<string>0414820A-73DC-4C2D-99AF-6FF861900298</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configures tvOS Software Update for tvOS beta</string>
+	<key>PayloadDisplayName</key>
+	<string>tvOS 15 Beta Software Profile</string>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.tvos.developersoftware</string>
+	<key>PayloadOrganization</key>
+	<string>Apple Inc.</string>
+	<key>PayloadRebootSuggested</key>
+	<true/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>FF949E97-6D4C-48FB-9381-6224CD140C16</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
+
