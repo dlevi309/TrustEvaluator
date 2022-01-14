@@ -5,7 +5,7 @@
 	<key>ConsentText</key>
 	<dict>
 		<key>default</key>
-		<string>The really cool thing about mobile profiles is that once they've been verified and installed by the system, they strictly follow the criteria set, meaning if you strip the profile of it's automatic removal date, these settings can be applied indefinitely. You may also be wondering about a profiles expiration date, and the short answer is that it simply does not matter; the reason that Apple signed profiles contain an automatic removal action (either by time interval after the initial install or a specific date) is because without it, profiles will stay installed regardless of it being signed. Beyond popular belief, the certificate within the profile is only responsible for the initial installation, nothing else. The most obvious application for this in my opinion is the potential to write defaults while Jailbroken, and carrying them out through different iOS versions, Jailbroken or not.</string>
+		<string>The really cool thing about mobile profiles is that once they've been verified and installed by the system, they strictly follow the criteria set, meaning if you strip the profile of it's automatic removal date, these settings can be applied indefinitely.</string>
 	</dict>
 	<key>PayloadContent</key>
 	<array>
@@ -17,9 +17,15 @@
 					<dict>
 						<key>AccessoryDeveloperEnabled</key>
 						<true/>
+						<key>IDSDiagnosticsEnabled</key>
+						<true/>
+						<key>VCDiagnosticsEnabled</key>
+						<true/>
+						<key>iMessageDiagnosticsEnabled</key>
+						<true/>
 					</dict>
 					<key>DefaultsDomainName</key>
-					<string>.GlobalPreferences</string>
+					<string>com.apple.Preferences</string>
 				</dict>
 			</array>
 			<key>PayloadIdentifier</key>
@@ -33,9 +39,9 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>This profile is a prime example of applying global defaults through an unsigned profile with TrustEvaluator, in the next scene, I offer more of an explanation as to how this is important when it comes to potential appliances. Once installed, check out the new 'Accessory Developer' section in settings. You may need to respring or reboot to get it to show.</string>
+	<string>Once installed, check out the 'Accessory Developer' section and diagnostic modes in settings.</string>
 	<key>PayloadDisplayName</key>
-	<string>Accessory Developer Profile</string>
+	<string>Accessory Developer + Facetime, iMessage and IDS Debugging Profile</string>
 	<key>PayloadIdentifier</key>
 	<string>daniel.trusteval.accessorydeveloper</string>
 	<key>PayloadOrganization</key>
